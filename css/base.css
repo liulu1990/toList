@@ -1,0 +1,85 @@
+html,body{
+    background: #00324a;
+}
+*{
+    border: none;
+    outline: none;
+}
+.wrap{
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.wrap h1{
+    text-align: center;
+    color: #fff;
+}
+.wrap form .ipt{
+    width: 84%;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    border-radius:5px;
+}
+.clearfix:after{
+    display: block;
+    clear:both;
+    content:'';
+}
+.wrap form .addTaskBtn{
+    width: 10%;
+    float: right;
+    line-height: 38px;
+    border-radius:5px;
+    background: #0d99db;
+}
+.list-submit{
+    overflow: hidden;
+}
+.fom-list{
+    margin-bottom: 10px;
+}
+.task-list{
+    width: 100%;
+}
+.task-list .task-item{
+    background: #fff;
+    height: 38px;
+    line-height: 38px;
+    padding:0 10px;
+    margin-bottom: 2px;
+}
+.item-content{
+    padding-left:20px;
+    color: #020c00;
+}
+.action{
+    float: right;
+    color: #8a8989;
+    margin-left: 4px;
+}
+/*点击详情弹出的框*/
+.task-detail{
+	display: none;
+	width: 300px;
+	height:340px;
+	position: fixed;
+    background-color: #524141;
+    padding: 15px;
+    top: 100px;
+    right: 39%;
+    border-radius: 3px;
+    color: white;
+}
+.detail-content,.datetime{
+	background-color: #ddd;
+	width: 100%;
+	max-height: 100px;
+	margin-bottom: 15px;
+}
+.desc{
+	background-color: #ddd;
+	width: 100%;
+	height: 100px;
+	border: 0;
+}

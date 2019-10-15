@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>my-todo-list</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/jquery.datetimepicker.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+	<div class="wrap">
+		<h1>MyTodo</h1>
+		<form action="javascript: return false" class="clearfix fom-list">
+			<input type="text" class="ipt">
+			<button class="addTaskBtn">submit</button>
+		</form>
+		<div class="task-list">
+			<!-- <div class="task-item">
+				<span class="chebk">
+					<input type="checkbox">
+				</span>
+				<span class="item-content">
+					今天来上课的同学都好看
+				</span>
+				<span class="action detail">详情</span>
+				<span class="action delete">删除</span>
+			</div>
+			<div class="task-item">
+				<span class="chebk">
+					<input type="checkbox">
+				</span>
+				<span class="item-content">
+					今天来上课的同学都好看
+				</span>
+				<span class="action detail">详情</span>
+				<span class="action delete">删除</span>
+			</div>
+			<div class="task-item">
+				<span class="chebk">
+					<input type="checkbox">
+				</span>
+				<span class="item-content">
+					今天来上课的同学都好看
+				</span>
+				<span class="action detail">详情</span>
+				<span class="action delete">删除</span>
+			</div> -->
+		</div>
+	</div>
+	<div class="task-detail">
+		<input type="text" class="detail-content" />
+		<span style="font-size: 16px;color:white;"> 备注</span>
+		<textarea class="desc"></textarea>
+		<span style="font-size: 16px;color:white;"> 设置闹钟</span>
+		<input type="text" class="datetime" />
+		<button class="detail-submit">提交</button>
+	</div>
+
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.datetimepicker.full.js"></script>
+	<script src="js/store.js"></script>
+	<script src="js/base.js"></script>
+</body>
+</html>
